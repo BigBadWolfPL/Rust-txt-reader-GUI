@@ -1,0 +1,10 @@
+[package]
+name = "gui_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk = "0.18.1" # Wersja zależności GTK
+glib = "0.20.2" # GLib, który jest używany przez GTK
+gio = "0.20.1"  # GIO, który jest potrzebny do działania aplikacji
+gtk4 = { version = "0.9.1", package = "gtk4" }
